@@ -77,7 +77,12 @@ h1{
   left: 45%
 }
 
+article{
+  margin: 10px 15%;
+}
+
 h2{
   color: #990000; /* Crimson Red */
-  font-size: 20px;
+  font-size: 36px;
+
 }
