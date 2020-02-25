@@ -12,13 +12,13 @@ html{
 }
 
 body{
-  background: #D3D3D3;
-  color: #990000; /* Crimson Red */
+  background: black;
+  color: #D3D3D3;
 }
 
 .nav{
-  background-color: black;
-  height: 50px;
+  background-color: #990000; /* Crimson Red */
+  margin: 0;
   overflow: hidden;
   position: fixed;
   top: 0;
@@ -35,8 +35,9 @@ body{
 }
 
 .nav-item a{
-  color: white;
+  color: #D3D3D3;
   display: block;
+  font-size: 22px;
   padding: 14px 16px;
   text-align: center;
   text-decoration: none;
@@ -45,14 +46,38 @@ body{
 #logo{
   float: right;
 }
+
 .nav-item a:hover{
   background-color:#111;
 }
 
-h1{
+.phoenix{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 45%;
+}
 
+h1{
+  color: #380000; /* Crimson Red */
+  font-weight: bold;
+}
+
+.fraternity{
+  font-size: 85px;
+  top: 61%;
+  left: 34%;
+  position: absolute;
+}
+
+.chapter{
+  font-size: 55px;
+  position: absolute;
+  top:70%;
+  left: 45%
 }
 
 h2{
+  color: #990000; /* Crimson Red */
   font-size: 20px;
 }
